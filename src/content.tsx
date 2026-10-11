@@ -247,13 +247,11 @@ const en: Content = {
         {
           date: "2026",
           title: "Back to systems",
-          desc: "Kernel-level open-source work on kbox, and CPU microbenchmarks with perf.",
           links: L.y2026,
         },
         {
           date: "2025 Fall",
           title: "Imaging and robotics coursework",
-          desc: "Forearm MRI segmentation (carpal tunnel, tendons, median nerve), MRI physics simulations (GRE flip angle, HASTE), and the JetSeek robot.",
           links: L.ms2025,
         },
         {
@@ -272,7 +270,7 @@ const en: Content = {
           date: "2024.06 – 2024.12",
           title: "Computer Vision Engineer (part-time)",
           org: "Aco Healthcare",
-          desc: "Owned automatic mode switching for an ultrasound probe. Reached 90% top-1 scene-detection accuracy with a state-of-the-art network, and designed a mode-selection policy that combines sampling and filtering.",
+          desc: "Automatic mode switching for an ultrasound probe (90% scene-detection accuracy).",
         },
         { date: "2023.09", title: "Started the M.S. program" },
       ],
@@ -291,24 +289,20 @@ const en: Content = {
         {
           date: "2023",
           title: "Capstone: on-device carotid ultrasound screening",
-          desc: "Won 2nd place at the capstone exhibition, competing against the whole graduating class.",
         },
         {
           date: "2023 Spring",
           title: "Linux Kernel Internals",
-          desc: "Implemented a queue in C (lab0-c).",
           links: L.kernel,
         },
         {
           date: "2022",
           title: "First machine-learning projects",
-          desc: "Image classification with VGG16 on CIFAR-10, and QRS-complex segmentation of ECG signals with a U-Net.",
           links: L.ml,
         },
         {
           date: "2021 – 2022",
           title: "Operating Systems",
-          desc: "Built a user-level thread scheduler (signals, asynchronous/deferred cancellation) and a virtual-memory simulator (TLB, page replacement, frame allocation).",
           links: L.os,
         },
         { date: "2019.09", title: "Started the B.S. program" },
@@ -445,13 +439,11 @@ const zhTW: Content = {
         {
           date: "2026",
           title: "回到系統領域",
-          desc: "參與 kbox 的核心層級開源開發，並以 perf 進行 CPU 微基準測試。",
           links: L.y2026,
         },
         {
           date: "2025 秋",
           title: "影像與機器人相關課程",
-          desc: "前臂 MRI 影像分割（腕隧道、屈肌肌腱、正中神經）、MRI 物理模擬（GRE 翻轉角、HASTE），以及 JetSeek 機器人。",
           links: L.ms2025,
         },
         {
@@ -470,7 +462,7 @@ const zhTW: Content = {
           date: "2024.06 – 2024.12",
           title: "電腦視覺工程師（兼職）",
           org: "Aco Healthcare",
-          desc: "負責超音波探頭自動模式切換：以 SOTA 神經網路達到 90% top-1 場景辨識準確率，並設計結合取樣與過濾的模式選擇策略。",
+          desc: "超音波探頭自動模式切換（場景辨識準確率 90%）。",
         },
         { date: "2023.09", title: "進入碩士班" },
       ],
@@ -489,24 +481,20 @@ const zhTW: Content = {
         {
           date: "2023",
           title: "畢業專題：裝置端頸動脈超音波篩檢",
-          desc: "於畢業專題展獲得第二名。",
         },
         {
           date: "2023 春",
           title: "Linux 核心設計",
-          desc: "以 C 實作佇列（lab0-c）。",
           links: L.kernel,
         },
         {
           date: "2022",
           title: "第一次接觸機器學習",
-          desc: "以 VGG16 進行 CIFAR-10 影像分類，以及以 U-Net 分割心電圖的 QRS 波。",
           links: L.ml,
         },
         {
           date: "2021 – 2022",
           title: "作業系統",
-          desc: "實作使用者層級執行緒排程器（訊號、非同步／延遲取消）與虛擬記憶體模擬器（TLB、頁面替換、frame 配置）。",
           links: L.os,
         },
         { date: "2019.09", title: "進入大學部" },
